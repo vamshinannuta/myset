@@ -1,4 +1,4 @@
-package main
+package myset
 
 type Set map[int]bool
 
@@ -29,6 +29,3 @@ func (s Set) Difference(s2 Set) Set {
 	return s
 }
 
-func main() {
-
-}
